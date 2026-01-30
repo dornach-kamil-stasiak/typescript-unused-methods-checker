@@ -1,0 +1,13 @@
+{
+  "name": "unused-methods-checker",
+  "version": "1.0.0",
+  "description": "Tool to find unused class methods in a TypeScript project using ts-morph.",
+  "main": "find-unused-methods.js",
+  "type": "module",
+  "scripts": {
+    "start": "node find-unused-methods.js"
+  },
+  "dependencies": {
+    "ts-morph": "^22.0.0"
+  }
+}
